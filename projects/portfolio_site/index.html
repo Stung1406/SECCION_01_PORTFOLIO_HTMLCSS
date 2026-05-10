@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -91,6 +92,110 @@
                 </div>
             </div>
         </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <a href="#lightbox-1" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=E-Commerce+Website" alt="E-Commerce Website">
+                            <div class="portfolio-overlay">
+                                <h3>E-Commerce Website</h3>
+                                <p>React + Node.js</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <a href="#lightbox-2" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=Task+Management+App" alt="Task Management App">
+                            <div class="portfolio-overlay">
+                                <h3>Task Management App</h3>
+                                <p>Vue.js + Firebase</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item" data-category="mobile">
+                        <a href="#lightbox-3" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=Weather+Mobile+App" alt="Weather Mobile App">
+                            <div class="portfolio-overlay">
+                                <h3>Weather Mobile App</h3>
+                                <p>React Native</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item" data-category="design">
+                        <a href="#lightbox-4" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=UI+Design+System" alt="UI Design System">
+                            <div class="portfolio-overlay">
+                                <h3>UI Design System</h3>
+                                <p>Figma + CSS</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item" data-category="mobile">
+                        <a href="#lightbox-5" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=Fitness+Tracker" alt="Fitness Tracker">
+                            <div class="portfolio-overlay">
+                                <h3>Fitness Tracker</h3>
+                                <p>Flutter</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <a href="#lightbox-6" class="portfolio-link">
+                            <img src="https://via.placeholder.com/400x300?text=Blog+Platform" alt="Blog Platform">
+                            <div class="portfolio-overlay">
+                                <h3>Blog Platform</h3>
+                                <p>Next.js + PostgreSQL</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Gallery -->
+        <div id="lightbox-1" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=E-Commerce+Website" alt="E-Commerce Website">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
+
+        <div id="lightbox-2" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=Task+Management+App" alt="Task Management App">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
+
+        <div id="lightbox-3" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=Weather+Mobile+App" alt="Weather Mobile App">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
+
+        <div id="lightbox-4" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=UI+Design+System" alt="UI Design System">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
+
+        <div id="lightbox-5" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=Fitness+Tracker" alt="Fitness Tracker">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
+
+        <div id="lightbox-6" class="lightbox">
+            <img src="https://via.placeholder.com/800x600?text=Blog+Platform" alt="Blog Platform">
+            <a href="#" class="lightbox-close">&times;</a>
+        </div>
     </main>
 </body>
 </html>
