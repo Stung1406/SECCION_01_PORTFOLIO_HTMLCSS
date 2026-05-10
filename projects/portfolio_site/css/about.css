@@ -49,6 +49,25 @@
     margin-bottom: 1rem;
 }
 
+/* Tablet: Adjust gap and font sizes */
+@media (max-width: 1024px) {
+    .about-wrapper {
+        gap: 2rem;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content .lead {
+        font-size: 1.1rem;
+    }
+
+    .about {
+        padding: 3rem 0;
+    }
+}
+
 /* Mobile: Stacked layout */
 @media (max-width: 768px) {
     .about-wrapper {
@@ -62,5 +81,28 @@
 
     .about-content .lead {
         font-size: 1rem;
+    }
+
+    .about {
+        padding: 2rem 0;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content .lead {
+        font-size: 0.95rem;
+    }
+
+    .about-content p {
+        font-size: 0.95rem;
     }
 }
